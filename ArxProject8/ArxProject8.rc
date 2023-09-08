@@ -1,0 +1,161 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "ArxProject8 ObjectARX application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ArxProject8"
+            VALUE "LegalCopyright", "Copyright ?2012"
+            VALUE "OriginalFilename", "ADSKArxProject8.arx"
+            VALUE "ProductName", "ArxProject8 Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_INDEX1 DIALOGEX 0, 0, 311, 177
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "请输入参数"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    LTEXT           "齿数",IDC_STATIC,45,28,16,8
+    LTEXT           "模数",IDC_STATIC,45,61,16,8
+    LTEXT           "齿形角",IDC_STATIC,45,93,24,14
+    LTEXT           "齿顶高系数",IDC_STATIC,45,125,39,8
+    LTEXT           "螺旋角",IDC_STATIC,166,28,24,8
+    LTEXT           "变位系数",IDC_STATIC,166,61,31,8
+    LTEXT           "跨测齿数",IDC_STATIC,166,93,44,14
+    PUSHBUTTON      "取消",IDC_BUTTON_CANCEL,239,147,50,14
+    PUSHBUTTON      "完成",IDC_BUTTON_START,169,147,50,14
+    EDITTEXT        IDC_EDIT_CS,92,28,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MS,92,61,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CXJ,92,93,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CDGXS,92,125,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LXJ,226,28,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BWXS,226,61,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_KCCS,226,93,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PDCLCS,226,125,40,14,ES_AUTOHSCROLL
+    LTEXT           "配对齿轮齿数",IDC_STATIC,166,125,46,8
+    EDITTEXT        IDC_EDIT_CK,92,7,40,14,ES_AUTOHSCROLL
+    LTEXT           "齿宽",IDC_STATIC,47,7,16,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_INDEX1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG_INDEX1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_PROJNAME            "ArxProject8"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
